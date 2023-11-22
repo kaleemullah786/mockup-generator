@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  height: 400px;
+}
+
+.mock {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  background-color: rgb(255, 175, 28);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type=checkbox],
+input[type=range] {
+  accent-color: black;
+}
